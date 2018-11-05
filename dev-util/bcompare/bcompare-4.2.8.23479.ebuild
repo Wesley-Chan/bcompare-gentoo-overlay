@@ -15,8 +15,9 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="caja kde konq nautilus nemo thunar"
 
-BDEPEND="dev-util/patchelf"
+DEPEND="dev-util/patchelf"
 RDEPEND="dev-qt/qtcore:4"
+RDEPEND="dev-qt/qtgui:4"
 
 src_install()
 {
